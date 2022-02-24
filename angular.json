@@ -1,0 +1,9 @@
+{
+  "version": 2,
+  "projects": {
+    "feature-table": "libs/feature-table",
+    "shell": "apps/shell",
+    "shell-e2e": "apps/shell-e2e",
+    "ui-table": "libs/ui-table"
+  }
+}
