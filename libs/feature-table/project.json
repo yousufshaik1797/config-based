@@ -1,0 +1,26 @@
+{
+  "projectType": "library",
+  "root": "libs/feature-table",
+  "sourceRoot": "libs/feature-table/src",
+  "prefix": "cbc",
+  "targets": {
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/libs/feature-table"],
+      "options": {
+        "jestConfig": "libs/feature-table/jest.config.js",
+        "passWithNoTests": true
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "options": {
+        "lintFilePatterns": [
+          "libs/feature-table/src/**/*.ts",
+          "libs/feature-table/src/**/*.html"
+        ]
+      }
+    }
+  },
+  "tags": []
+}
